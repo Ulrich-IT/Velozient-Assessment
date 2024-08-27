@@ -14,3 +14,5 @@ This script automates the setup of infrastructure monitoring and alerting for Az
 
    ```bash
    pip install azure-mgmt-monitor azure-identity
+   pip install azure-mgmt-resource
+   
