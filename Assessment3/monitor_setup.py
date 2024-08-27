@@ -6,7 +6,7 @@ from azure.mgmt.resource import ResourceManagementClient
 
 # Set up credentials and clients
 credential = DefaultAzureCredential()
-subscription_id = "6fd78bbb-2fc2-4e03-807b-efe09996e9a2"  # Ensure this is correct
+subscription_id = "6fd78bbb-2fc2-4e03-807b-efe09996e9a2" 
 
 monitor_client = MonitorManagementClient(credential, subscription_id)
 resource_client = ResourceManagementClient(credential, subscription_id)
