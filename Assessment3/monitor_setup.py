@@ -15,7 +15,7 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 # Define constants
 resource_group_name = "myResourceGroup"
 vm_name = "web-vm-1"
-location = "westus2"  
+location = "westeurope"  
 
 # Get the VM resource ID
 vm_resource_id = (
