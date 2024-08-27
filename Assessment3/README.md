@@ -2,6 +2,8 @@
 
 This script automates the setup of infrastructure monitoring and alerting for Azure resources using Azure Monitor.
 
+This repository have two options to run it. One using a Python script and other using PowerShell as you wish.
+
 ## Prerequisites
 
 - Azure CLI installed and configured.
