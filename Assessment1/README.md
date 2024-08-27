@@ -11,24 +11,17 @@ This Terraform configuration deploys a highly available and scalable infrastruct
 - Azure CLI configured and authenticated (`az login`)
 - An existing Azure subscription
 
-## Usage
-
-1. **Clone the repository:**
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
-
-"Cost Estimate"
+## Cost Estimate
 
             "Resource	                    Monthly Cost Estimate
             
-        Virtual Machines (Web)	                    $X.XX
-        Load Balancer	                            $X.XX
-        Virtual Machine (App)	                    $X.XX
-        Azure SQL Database	                        $X.XX
-        Virtual Network + NSGs	                    $X.XX
-        Total	                                    $X.XX"
+            2 Web VMs	                            $50.56
+            1 Application VM	                    $25.28
+            Standard Load Balancer              	$18.00
+            Azure SQL Database (S0)	                $15.00
+            Bandwidth (Data Transfer)	            $10.00
+            
+            Total	                                $118.84
+
 
 
