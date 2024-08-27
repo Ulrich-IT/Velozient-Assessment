@@ -6,7 +6,7 @@ This script automates the setup of infrastructure monitoring and alerting for Az
 
 - Azure CLI installed and configured.
 - Python 3.x installed.
-- Required Python packages: `azure-mgmt-monitor`, `azure-identity`.
+- Required Python packages: `azure-mgmt-monitor`, `azure-identity`, `azure-mgmt-resource`.
 
 ## Setup and Usage
 
